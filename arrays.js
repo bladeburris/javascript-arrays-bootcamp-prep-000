@@ -9,8 +9,7 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  newArray = array.shift()
-  return newArray
+  return array.shift()
 }
 
 function removeElementFromBeginningOfArray(array) {
@@ -19,6 +18,5 @@ function removeElementFromBeginningOfArray(array) {
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
-  newArray = array.pop()
-  return newArray
+  return array.pop()
 }
