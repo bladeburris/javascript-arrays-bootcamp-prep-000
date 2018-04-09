@@ -12,3 +12,4 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   newArray = array.shift()
   return newArray
 }
+
